@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+.header {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+li {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.containerLogo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.containerProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column  ;
+}
+.containerProductTop{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 90%;
+}
+.containerProductTopNavbar{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.cartTitle{
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+  
+}
+p{
+    width: 80%;
+}
+.faHeart{
+    font-size: 20px;
+}
+.containerProductTopNavbars{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+}
+li {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:
+        rgb(110, 110, 110);
+    font-weight: 600;
+}
+
+
+.containerProductTopNavbarIcons{
+    display: flex;
+    gap: 30px;
+    
+}
+.ProductIcons{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(182, 179, 179);
+}
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  /* Add this style for each individual product item */
+  .ProductItem {
+    width: calc(25% - 10px); /* Each item takes up 25% width of its container with some margin */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  /* Add styles for the product image */
+  .ProductItem img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Add styles for the product name */
+  .ProductItem p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Add styles for the product price */
+  .ProductItem p:last-child {
+    margin-top: 5px;
+    font-size: 14px;
+  }
